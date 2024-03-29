@@ -1,0 +1,109 @@
+body{
+    background: linear-gradient(to right, #55F904, #F90429); 
+    color: white;
+    padding: 1.2rem;
+}
+
+#head{
+    font-size: 3rem;
+    text-align: center;   
+}
+
+#analytics{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#detail {
+    margin: 16px;
+}
+
+#chartdetaildiv {
+    width: 60%;
+}
+
+#listdiv{
+    width: 25%;
+}
+#listarrangement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between; 
+    align-items: center;
+    margin-top: 12px;
+}
+
+.buttondesign {
+    background-color: #F90429;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.buttondesign:hover {
+    background-color: #55F904;
+    color: #F90429;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.redIfZero {
+    background-color: aliceblue;
+    color: red;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.three-element-div {
+    width: max-content;
+    background-color: aquamarine;
+    color: black;
+    font-size: xx-large;
+    font-style: italic;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+canvas {
+    border: 2px solid white;
+    margin: 30px;
+}
+
+#divButtons {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 12px;
+}
+
+#divButtons button {
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #55F904;
+    color: white;
+}
+
+#divButtons button:hover{
+    background-color: #F90429;
+}
+
+#chart{
+    margin-top: 12px;
+}
+
+#noOfYears {
+    transition: width 1s ease;
+    margin: 8px;
+    padding: 10px 60px;
+    background-color: #f904f9;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
